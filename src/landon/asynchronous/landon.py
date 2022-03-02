@@ -1,7 +1,7 @@
 import aiohttp
 
-from ..data.typehints import CreateFlightSchema
-from ..data.errors import RequestReturnedException
+from .._data.errors import RequestReturnedException
+from .._data.typehints import CreateFlightSchema
 
 BASE_URL = "https://roavflights.com/openapi"
 
